@@ -22,8 +22,8 @@ int main() {
 
 
 #### 3. Task List
-- [ ] Add headers  
-- [ ] Add an image  
-- [ ] Add a code example  
-- [ ] Complete the pull request  
 
+- [ ] Add headers
+- [ ] Add an image
+- [ ] Add a code example
+- [ ] Complete the pull request
