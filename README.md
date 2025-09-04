@@ -1,79 +1,29 @@
-<header>
+#  Markdown Page  
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+--- CSC 317 Junxi Lin
 
-# Communicate using Markdown
+## 1. Add an Image  
+![Landscape](https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60)
 
-_Organize ideas and collaborate using Markdown, a lightweight language for text formatting._
-
-</header>
-
-<!--
-  <<< Author notes: Step 3 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
--->
-
-## Step 3: Add a code example
-
-_Great job adding an image to the file :tada:_
-
-Let's add some code blocks. Code blocks can render differently depending on the language.
-
-### Example 1
-
-<pre>
-```
-$ git init
-Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
-```
-</pre>
-
-#### How it looks
-
-```
-$ git init
-Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
-```
-
-### Example 2
-
-<pre>
-``` javascript
-var myVar = "Hello, world!";
-```
-</pre>
-
-#### How it looks
-
-```javascript
-var myVar = "Hello, world!";
-```
-
-### :keyboard: Activity: Adding a code example
-
-1. As you did before, edit the file in this pull request.
-1. In the file, add the correct Markdown for a code example of your choice.
-1. Use the **Preview** tab to check your Markdown formatting.
-1. Commit your changes.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/communicate-using-markdown) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+### 2. Add a Code Example  
+This is a simple C++ program:
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+```cpp
+#include <iostream>
+using namespace std;
 
-</footer>
+int main() {
+    cout << "Hello, GitHub Markdown!" << endl;
+    return 0;
+}
+
+
+#### 3. Task List
+- [ ] Add headers  
+- [ ] Add an image  
+- [ ] Add a code example  
+- [ ] Complete the pull request  
+
